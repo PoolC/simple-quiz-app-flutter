@@ -5,9 +5,9 @@ import 'package:poolc_quiz_app/src/config/color_scheme.dart';
 TextTheme textTheme() {
   return TextTheme(
       headline4:
-          GoogleFonts.nanumGothic(fontSize: 34, fontWeight: FontWeight.bold,  color: CustomColorscheme.fontColor),
+          GoogleFonts.nanumGothic(fontSize: 30, fontWeight: FontWeight.bold,  color: CustomColorscheme.fontColor),
       headline5:
-          GoogleFonts.nanumGothic(fontSize: 24, fontWeight: FontWeight.bold, color: CustomColorscheme.fontColor),
+          GoogleFonts.nanumGothic(fontSize: 26, fontWeight: FontWeight.bold, color: CustomColorscheme.fontColor),
       headline6:
           GoogleFonts.nanumGothic(fontSize: 18, fontWeight: FontWeight.bold, color: CustomColorscheme.fontColor),
       bodyText1: GoogleFonts.nanumGothic(fontSize: 16, color: CustomColorscheme.fontColor),

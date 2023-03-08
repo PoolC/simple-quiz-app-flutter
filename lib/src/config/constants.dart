@@ -4,7 +4,7 @@ class Constants {
   static const String logoVertical = 'assets/logo/poolc_vertical.png';
   static const String logoText = 'assets/logo/poolc_text.png';
   static const String background = 'assets/background.svg';
-  static const String resIconDefault = 'assets/resul_icon_1.png';
-  static const String resIconSuccess = 'assets/resul_icon_2.png';
+  static const String resIconDefault = 'assets/result_icon_1.png';
+  static const String resIconSuccess = 'assets/result_icon_2.png';
 
 }

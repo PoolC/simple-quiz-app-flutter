@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:poolc_quiz_app/src/config/constants.dart';
+import 'package:get/get.dart';
 
 Widget logoCenter() {
   return Center(
@@ -30,7 +31,9 @@ Widget logoCenter() {
 
 Widget quizStartButton(Size size, BuildContext context) {
   return InkWell(
-    onTap: () {},
+    onTap: (){
+      Get.toNamed('/quiz');
+    },
     child: Column(
       mainAxisSize: MainAxisSize.min,
       children: [
